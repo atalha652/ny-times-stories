@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 const cors = require('cors');
 const PORT = process.env.PORT || 5000;
-const API_KEY = 'wsW9ApGtEiEroRtw64X8fWzCu7OUDLp5'; // Get your API key from https://developer.nytimes.com/
+const API_KEY = ''; // Get your API key from https://developer.nytimes.com/
 
 app.use(express.json());
 app.use(cors());
